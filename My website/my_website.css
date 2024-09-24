@@ -1,0 +1,152 @@
+html {
+    font-family: sans-serif;
+    font-size: 95%;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+  @media screen and (min-width: 480px) {
+    body {
+      background-color: rgb(255, 255, 255);
+    }
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index:-100;
+    text-align: center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+  }
+
+/*------------------------------------
+    END NAVBAR
+------------------------------------*/
+
+h1 {
+    background-color: rgb(99, 224, 230);
+    height: 40px;
+    font-size: 150%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:rgb(255, 255, 255)
+}
+
+/*-------------------------------------
+    ITIENERARY
+-------------------------------------*/
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.images {
+    position: relative;
+    text-align: center;
+    font: white;
+}
+
+  .center {
+    filter:contrast(120%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 2px black;
+    border-radius: 20px;
+  }
+
+  .activities, td, th {
+    border: black;
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+  }
+
+  .activities, th {
+    background-color:rgb(99, 224, 230);
+    border-collapse: collapse;
+
+  }
+
+  /*---------------------------------------
+     REvIEWS
+  ---------------------------------------*/
+
+  .column {
+    color: white;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  } 
+  
+  .column:hover {
+    color: black;
+  }
+
+/*---------------------------------------
+    END REvIEWS
+  ---------------------------------------*/
+
+  
+  form input[type="text"] {
+    width: 18%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+
+
+  /*--------------------------------------------
+      FOOTER
+  --------------------------------------------*/
+  .footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(99, 224, 230);
+    color: white;
+    font-weight: bold;
+  }
